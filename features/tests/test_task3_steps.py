@@ -119,7 +119,7 @@ def verify_successful_registration(driver):
     assert 'Registration completed successfully. You can now log in.' == suc_msg_ele.text, "Registration was not successful."
     print("Registration successful message displayed.")
     valid_creds = {"email": email , "password": password}
-    c.generate_json_file(valid_creds, f"C:\\Users\\nomanm\\PycharmProjects\\pythonProject\\Assignment\\features\\test_data")
+    c.generate_json_file(valid_creds, f"..\\Assignment\\features\\test_data")
 
 @then('I should navigate to login page')
 def validate_nav_to_login_page(driver):
