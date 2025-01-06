@@ -12,15 +12,19 @@
 # Task4: 
   Feature file://assignment/features/task4.feature
   Step file:   //assignment/features/tests/test_task4_steps.py
-
+# ##############################################################
 # Performance Testing 
 # Task1:
 # Load test script and report for endpoint /client_register
+//assignment/locustfile_reg
+
 # Load test script and report for endpoint /client_login
+//assignment/login
+
 # BDD Load Testing
   Feature File: //assignment/features/performanceTest.feature
   Step file:   //assignment/features/tests/test_performance_steps.py
-
+# ##############################################################
 # Test Management
 
 # Test Run and RBT: 
@@ -32,6 +36,6 @@
 # TestCases (acceptance+edge) : 
 //Assignment/ TestCases.xlsx
 
-
+# ##############################################################
 # Functional Test
 //Assignment/Juice_shop_bugs.docx
