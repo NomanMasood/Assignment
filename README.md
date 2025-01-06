@@ -25,11 +25,14 @@
 # Task1:
 # Load test script and report for endpoint /client_register
 
-//assignment/locustfile_reg.py
+Script:           //assignment/locustfile_reg.py
+Performance Reprot: //assignment/performance/PerformanceTest_report.xlsx
+
 
 # Load test script and report for endpoint /client_login
 
-//assignment/login.py
+Script:          //assignment/login.py
+Performance Reprot: //assignment/performance/PerformanceTest_report.xlsx
 
 # BDD Load Testing
   Feature File:         //assignment/features/performanceTest.feature
