@@ -30,7 +30,7 @@ def navigate_to_application(driver):
 
 @when('I login with valid generated credentials')
 def login_with_generated_credentials(driver):
-    json_data = c.fetch_json_file(f"C:\\Users\\nomanm\\PycharmProjects\\pythonProject\\Assignment\\features\\test_data\\data.json")
+    json_data = c.fetch_json_file(f"..\\Assignment\\features\\test_data\\data.json")
     email = json_data['email']
     password= json_data['password']
     driver.find_element(By.XPATH, Login.email_xpath).send_keys(email)
